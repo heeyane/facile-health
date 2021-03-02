@@ -7,7 +7,7 @@
 
 .home,
 .services,
-.products,
+.contact,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -21,16 +21,16 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #e0a800;
   font-size: 100px;
 }
 
-.products {
+.contact {
   /*background-image: url('/images/img-1.jpg');*/
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #e0a800;
   font-size: 100px;
 }
 
@@ -39,6 +39,6 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #fff;
+  color: #e0a800;
   font-size: 100px;
 }
