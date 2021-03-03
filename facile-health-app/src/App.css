@@ -10,6 +10,7 @@
 .contact,
 .sign-up {
   display: flex;
+  background-color: #fdec96;
   height: 90vh;
   align-items: center;
   justify-content: center;
@@ -21,8 +22,9 @@
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #e0a800;
+  color: #2a6592;
   font-size: 100px;
+  background-color: #fef6d0;
 }
 
 .contact {
@@ -30,15 +32,33 @@
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
-  color: #e0a800;
+  color: #2a6592;
   font-size: 100px;
+  background-color: #fef6d0;
 }
 
 .sign-up {
   /*background-image: url('/images/img-8.jpg');*/
+  background-color: #fef6d0;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  color: #e0a800;
+  color: #2a6592;
   font-size: 100px;
+  /*background-color: #fef6d0;*/
+}
+
+.searchBar {
+  text-align: center;
+  display: block;
+  margin: 0 auto;
+
+}
+
+h2 {
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
 }

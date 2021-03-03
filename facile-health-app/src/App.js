@@ -34,7 +34,6 @@ function App() {
     <>
     <Router>
       <Navbar />
-      <SearchBar />
       <Switch>
         <Route path='/' exact component={Home} />
         <Route path='/services' component={Services} />

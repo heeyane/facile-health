@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import SearchBar from './SearchBar';
 import SymptomList from "./SymptomList";
-import {Button} from "./Button";
 
 const SearchPage = (props) => {
     const [input, setInput] = useState('');
@@ -34,13 +33,17 @@ const SearchPage = (props) => {
 
     return (
         <>
-            <h1>Symptom List</h1>
+            <br/>
+            <h2>Symptom List</h2>
+            <br/>
+            <h3>Search your symptoms here to check our service availability and feasibility of treatment via tele-medicine.</h3>
+            <br/>
             <SearchBar
                 input={input}
                 onChange={updateInput}
             />
 
-            <SymptomList symptomList={symptomList}/>
+            {input.length > 3 && <SymptomList symptomList={symptomList}/>}
         </>
     );
 }

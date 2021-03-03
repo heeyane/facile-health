@@ -5,20 +5,21 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    background-color: #3fb9bf;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    /*box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);*/
     object-fit: contain;
 }
 
 .landing-container > h1 {
-    color: #fff;
+    color: #fef6d0;
     font-size: 100px;
     margin-top: -100px;
 }
 
 .landing-container > p {
     margin-top: 8px;
-    color: #fff;
+    color: #fef6d0;
     font-size: 32px;
     font-family: "Trebuchet MS", 'Lucida Grande', 'Arial', 'sans-serif';
 }
