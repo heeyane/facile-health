@@ -1,0 +1,57 @@
+.first{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    /*margin-left: -6px;*/
+}
+
+.second{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2px;
+}
+
+.third{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 22px;
+}
+
+.fourth{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.form-container-inline label{
+    margin: 5px 10px 5px 0;
+}
+
+.form-container-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+.sign-up-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.sign-up-btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 10px;
+}

@@ -8,7 +8,7 @@ const SymptomList = ({symptomList=[]}) => {
                 if (data) {
                     return (
                         <div key={data.Name}>
-                            <h1>{data.Name}</h1>
+                            <h3>{data.Name}</h3>
                         </div>
                     )
                 }

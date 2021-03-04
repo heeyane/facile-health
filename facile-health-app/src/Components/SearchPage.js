@@ -44,6 +44,7 @@ const SearchPage = (props) => {
             />
 
             {input.length > 3 && <SymptomList symptomList={symptomList}/>}
+
         </>
     );
 }

@@ -1,0 +1,51 @@
+.first-sign-in{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 2px;
+
+}
+
+.second-sign-in{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-left: 29px;
+}
+
+.third-sign-in{
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+
+.form-container-inline label{
+    margin: 5px 10px 5px 0;
+}
+
+.form-container-inline input {
+    vertical-align: middle;
+    margin: 5px 10px 5px 0;
+    padding: 10px;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+
+
+.sign-in-title {
+    font-size: 40px;
+    text-align: center;
+}
+
+.sign-in-btn {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 14px;
+}

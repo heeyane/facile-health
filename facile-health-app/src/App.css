@@ -48,6 +48,10 @@
   /*background-color: #fef6d0;*/
 }
 
+.form-container-inline{
+  background-color: #3FB9BF;
+}
+
 .searchBar {
   text-align: center;
   display: block;
