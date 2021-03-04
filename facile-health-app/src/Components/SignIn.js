@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {useState} from 'react'
 import '../App.css'
 import './SignIn.css'
 import {Button} from "./Button";
@@ -7,6 +7,8 @@ import './Button.css'
 // <h1 className='sign-up'>Sign Up</h1>
 
 export default function SignIn() {
+
+
     return (
         <form className='form-container-inline'>
             <br/>
@@ -22,12 +24,12 @@ export default function SignIn() {
 
                 <div className='second-sign-in'>
                     <label>Password:</label>
-                    <input type="text" className="form-control" placeholder="Password" />
+                    <input type="password" className="form-control" placeholder="Password" />
                 </div>
 
                 <div className='third-sign-in'>
                     <label>Confirm Password:</label>
-                    <input type="email" className="form-control" placeholder="Confirm Password" />
+                    <input type="password" className="form-control" placeholder="Confirm Password" />
                 </div>
 
             </div>

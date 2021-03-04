@@ -8,7 +8,6 @@ import Contact from "./Components/Contact";
 import SignUp from "./Components/SignUp";
 import Footer from "./Components/Footer";
 import SignIn from './Components/SignIn';
-import axios from "axios";
 
 function App() {
 
@@ -39,7 +38,7 @@ function App() {
         <Route path='/services' component={Services} />
         <Route path='/contact' component={Contact} />
         <Route path='/sign-up' component={SignUp} />
-        <Route path='/sign-in' component={SignIn} />
+        <Route path='/sign-in' component={SignIn}/>
       </Switch>
       <Footer />
     </Router>

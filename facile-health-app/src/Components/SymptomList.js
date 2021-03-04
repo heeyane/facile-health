@@ -1,7 +1,7 @@
 
 import React from 'react';
 
-const SymptomList = ({symptomList=[]}) => {
+const SymptomList = ({symptomList}) => {
     return (
         <>
             {symptomList.map((data, index) => {
