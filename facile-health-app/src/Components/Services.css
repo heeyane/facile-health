@@ -1,4 +1,50 @@
-.Container{
-    /*display: flex;*/
-    flex-direction: column-reverse;
+.service-container{
+    column-count: 3;
+    column-gap: 5px;
+    height: 15rem;
+}
+
+.instruction-container{
+    column-count: 1;
+    /*background-color: #CCE0DA;*/
+    margin: 0 auto;
+
+
+}
+
+.general-health{
+    /*text-align: center;*/
+    /*background-color: #fdec96;*/
+
+}
+
+.sexual-health{
+    /*text-align: center;*/
+}
+
+.tele-therapy{
+    /*text-align: center;*/
+    /*background-color: #fdec96;*/
+}
+
+
+.step-title {
+    text-align: left;
+    margin-left: 30px;
+}
+
+.instruction-title{
+    font-size: 40px;
+}
+
+.step-instructions {
+    margin-left: 30px;
+    margin-right: 400px;
+}
+
+.button is-warning{
+    justify-content: center !important;
+    text-align: center !important;
+    display: flex!important;
+    justify-items:center !important;
 }
